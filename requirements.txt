@@ -1,0 +1,4 @@
+discord.py==2.2.2
+praw==7.5.0
+#pyaudio==0.2.12
+sounddevice==0.4.5
