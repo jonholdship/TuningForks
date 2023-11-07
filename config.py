@@ -5,11 +5,11 @@ REDDIT_USERAGENT = "twoforksmemebot"
 REDDIT_USERNAME = "twoforksmemebot"
 REDDIT_SUB = "pathfindermemes"
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1091668804322467901/E1WUKD4KXp7X-VVJp_NorxwCfwjC6dxzMlsG5mR0RCv1urT2x6l0uuOwxYIDyZZeHEwm"
+WEBHOOK_URL = "your_discord_webhook"
 
 
-DISCORD_TOKEN = "ODg3MDAwNjU0MTkzNzcwNTQ2.GPvVVm.syopw5ZZbEWjtXONquJ44YNdC1Qx1azwKcy4LY"
-DISCORD_CHANNEL = 689854565184831518
+DISCORD_TOKEN = "token_for_discord"
+DISCORD_CHANNEL = DISCORD_CHANNEL_ID
 
 DAYS = [
     ":crescent_moon: Monday",
