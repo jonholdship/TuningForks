@@ -1,7 +1,9 @@
+from pprint import pformat
 import sounddevice as sd
 import discord
 
 DEFAULT = 0
+VOICE_INPUT = "VoiceMeeter Output"
 sd.default.channels = 2
 sd.default.dtype = "int16"
 sd.default.latency = "high"
@@ -33,7 +35,7 @@ class PCMStream(discord.AudioSource):
 
     def prepare_cable(self):
         device_list = sd.query_devices()
-        cable_list = [x for x in device_list if "VoiceMeeter Output" in x["name"]]
+        cable_list = [x for x in device_list if VOICE_INPUT in x["name"]]
         try:
             device = cable_list[0]
         except:

@@ -1,0 +1,5 @@
+discord.py==2.2.2
+praw==7.5.0
+sounddevice==0.4.5
+pydantic-settings==2.0.3
+pydantic==2.4.2

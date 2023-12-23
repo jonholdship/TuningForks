@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/tuning_forks/__init__.py
+src/tuning_forks/audio_source.py
+src/tuning_forks/bot.py
+src/tuning_forks/config.py
+src/tuning_forks/wire.py
+src/tuning_forks.egg-info/PKG-INFO
+src/tuning_forks.egg-info/SOURCES.txt
+src/tuning_forks.egg-info/dependency_links.txt
+src/tuning_forks.egg-info/requires.txt
+src/tuning_forks.egg-info/top_level.txt
